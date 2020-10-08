@@ -17,7 +17,7 @@ state={
     return (
       <div className="App">
         <Nav />
-        <HelloWorld />
+        {/* <HelloWorld /> */}
         <HogContainer pigData={this.state.pigData}/>
       </div>
     );
