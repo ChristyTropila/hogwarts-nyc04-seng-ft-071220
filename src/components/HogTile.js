@@ -14,7 +14,7 @@ class HogTile extends React.Component {
         let pigImages=require(`../hog-imgs/${name.toLowerCase().replace(/ /g,"_")}.jpg`)
       
         return(
-           <li className="container">
+           <li className="pigTile">
              <img src={pigImages}/>
             <p>Pig Name: <span>{name}</span></p>
            </li>

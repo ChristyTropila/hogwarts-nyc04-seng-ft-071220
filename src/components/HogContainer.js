@@ -9,12 +9,14 @@ function HogContainer(props){
      return <HogTile key={singularPig.id} pigData={singularPig} />
  })
 
- 
+
 
 return ( 
+    <div className="pigContainer">
     <ul>
         {arrayOfComponents}
     </ul>
+    </div>
 )
 
 }
